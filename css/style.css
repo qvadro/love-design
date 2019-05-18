@@ -1,0 +1,86 @@
+*{
+	box-sizing: border-box;
+}
+header {
+	height: 850px;
+	background-color: #23232e;
+	color: white;
+}
+
+.top {
+	text-align: center;
+}
+.logo {
+	padding-top: 80px;
+	padding-bottom: 180px;
+}
+h1 {
+	font-size: 58px;
+}
+
+.header_p {
+	font-size: 15px;
+	padding-bottom: 185px;
+	padding-left: 40%;
+	padding-right: 40%;
+}
+
+.scroll {
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	border-radius: 50%;
+	transform: rotate(180deg);
+	margin-bottom: 50px;
+	padding-top: 5px;
+	font-size: 30px;
+	color: white;
+	background-color: transparent; 
+}
+
+main {
+	background-image: url(../img/bg.png);
+}
+.text {
+	font-size: 25px;
+	padding-top: 130px;
+	text-align: center;
+	padding-left: 18%;
+	padding-right: 18%;
+}
+.text_second {
+	padding-top: 40px;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 18%;
+	padding-right: 18%;
+
+}
+h2 {
+	font-size: 53px;
+	text-align: center;
+	margin-top: 125px;
+	color: #464B4F;
+}
+.box_aside {
+	display: block;
+	margin: 0 auto;
+	max-width: 940px;
+	text-align: center;
+	font-size: 0;
+	padding-bottom: 125px;
+}
+aside {
+	display: inline-block;
+	width: 25%;
+	font-size: 15px;
+}
+aside:nth-child(2) {
+    margin: 0 5%;
+}
+h3 {
+	font-size: 25px;
+}
+.aside-text {
+	font-size: 20px;
+}
